@@ -164,7 +164,7 @@ export default function Page() {
                     From curiosity to craft
                   </h2>
                   <p className="text-muted-foreground mt-3 text-base leading-relaxed md:text-lg">
-                    Building images that feel inevitable—shaped by physics, story,
+                    Building images that feel inevitable&mdash;shaped by physics, story,
                     and restraint.
                   </p>
 
@@ -263,7 +263,7 @@ export default function Page() {
                         From curiosity to craft
                       </h2>
                       <p className="text-muted-foreground mt-3 text-base leading-relaxed md:text-lg">
-                        Building images that feel inevitable—shaped by physics, story,
+                        Building images that feel inevitable&mdash;shaped by physics, story,
                         and restraint.
                       </p>
 
@@ -676,7 +676,7 @@ export default function Page() {
                                 </p>
                               </div>
                               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6">
-                                <li>Lighting in V-Ray for Maya on Starz’ Black Sails.</li>
+                                <li>Lighting in V-Ray for Maya on Starz' Black Sails.</li>
                                 <li>Cloud FX in Houdini rendered with Mantra.</li>
                               </ul>
                             </section>

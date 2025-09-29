@@ -4,6 +4,7 @@ import 'lenis/dist/lenis.css'
 import { ReactLenis } from "lenis/react"
 import type { LenisRef } from "lenis/react"
 import React, { useEffect, useMemo, useRef } from "react"
+import Lenis from "lenis"
 
 /**
  * LenisRoot mounts a Lenis instance at the document root.
@@ -50,20 +51,19 @@ export function LenisRoot() {
       checks += 1
 
       if (lenisRef.current?.lenis) {
-        // eslint-disable-next-line no-console
         console.debug("Lenis initialized", lenisRef.current.lenis)
         // Expose on window for quick debugging in devtools
         try {
           // @ts-expect-error - dev-only debugging helper
           window.__lenis = lenisRef.current.lenis
-        } catch (e) {
+        } catch (_e) {
           /* ignore */
         }
 
         // Ensure the instance is running
         try {
           lenisRef.current.lenis.start?.()
-        } catch (e) {
+        } catch (_e) {
           /* ignore */
         }
 
@@ -72,7 +72,6 @@ export function LenisRoot() {
       }
 
       if (checks >= maxChecks) {
-        // eslint-disable-next-line no-console
         console.warn("Lenis did not initialize within expected time")
         clearInterval(interval)
       }
@@ -87,8 +86,7 @@ export function LenisRoot() {
     const instance = lenisRef.current?.lenis
     if (!instance) return
 
-    const onScroll = (e: any) => {
-      // eslint-disable-next-line no-console
+    const onScroll = (e: Lenis) => {
       console.debug("lenis:scroll", e)
     }
 
