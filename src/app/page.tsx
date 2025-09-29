@@ -294,7 +294,7 @@ export default function Page() {
                         <p>
                           Maya was the first software I learned in 2008. 2009 began my
                           time at the School of Visual Art in Manhattan for Computer
-                          Animation and Visual Effects in pursuit of my Bachelor's
+                          Animation and Visual Effects in pursuit of my Bachelor&#39;s
                           of Fine Art degree.
                         </p>
                         <p>
@@ -675,7 +675,7 @@ export default function Page() {
                                 </p>
                               </div>
                               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6">
-                                <li>Lighting in V-Ray for Maya on Starz' Black Sails.</li>
+                                <li>Lighting in V-Ray for Maya on Starz&#39; Black Sails.</li>
                                 <li>Cloud FX in Houdini rendered with Mantra.</li>
                               </ul>
                             </section>
