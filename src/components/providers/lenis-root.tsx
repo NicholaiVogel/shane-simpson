@@ -56,14 +56,14 @@ export function LenisRoot() {
         try {
           // @ts-expect-error - dev-only debugging helper
           window.__lenis = lenisRef.current.lenis
-        } catch (_e) {
+        } catch {
           /* ignore */
         }
 
         // Ensure the instance is running
         try {
           lenisRef.current.lenis.start?.()
-        } catch (_e) {
+        } catch {
           /* ignore */
         }
 
