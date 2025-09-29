@@ -1,0 +1,12 @@
+Developer Rules Activation Log
+
+File: .clinerules/Developer.md
+Status: ACTIVATED
+Activated by: Cline assistant
+Timestamp: 2025-09-29 01:11:46 (America/Denver)
+
+Notes:
+- The Developer.md rules have been loaded and will be enforced for subsequent tasks in this workspace.
+- Workflow requirements include: fetching context7 docs before code/design plans, consulting shadcn registry for UI components, producing pseudocode plans, and following Next.js 15 / TypeScript / Tailwind / shadcn patterns.
+
+If this activation is incorrect or you want different behavior, reply with instructions.
