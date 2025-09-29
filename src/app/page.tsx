@@ -27,7 +27,6 @@ import { CollapsibleArea } from "@/components/collapsible-area"
 import { StudiosStrip } from "@/components/studios-strip"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
-import LenisRoot from "@/components/providers/lenis-root"
 
 export const metadata: Metadata = {
   title: "Shane Simpson — VFX Artist (Houdini, FX & Lighting)",
