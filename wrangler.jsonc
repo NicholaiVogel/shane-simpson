@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "name": "my-app",
+  "name": "ss-web",
   "compatibility_date": "2024-12-30",
   // Enable Node.js API
   // See https://developers.cloudflare.com/workers/configuration/compatibility-flags/#nodejs-compatibility-flag
